@@ -125,7 +125,7 @@
 
         <div class="flex flex-col px-20">
           <div class="w-96 justify-center text-cyan-400 text-3xl font-semibold font-['Poppins'] leading-10">Unlock Every Event — Exclusive Access<br/></div>
-          <div class="w-[467px] justify-center text-zinc-600 text-base font-normal font-['Open_Sans'] leading-6">Orlando’s most complete business calendar — all in one place. Find events, post your own, and stay connected to the people who matter most.</div>
+          <div class="w-[467px] justify-center text-zinc-600 text-base font-normal font-['Open_Sans'] leading-6">Orlando’s most complete business calendar — all in one place.Find events, post your own, and stay connected to the people who matter most.</div>
           <div class="w-80 justify-center text-cyan-400 text-2xl font-semibold font-['Poppins'] leading-10">Get Full Access </div>
           <div class="flex flex-col items-center">
              <img class="mt-5" src="{{ asset('storage/images/home/group.png') }}" />
@@ -271,7 +271,7 @@
     <div>
     <div class="w-[696px] mb-10 justify-center text-white text-2xl font-bold font-['Montserrat'] leading-9">Membership Has Its Perks You’ve been to the <br/>events, now unlock the full experience.</div>
       <div class="w-[696px] mb-10  justify-center text-white text-xl font-normal font-['Montserrat'] leading-6">Community Access — Join 4,000+ local entrepreneurs.<br/><br/>The Badass Event Calendar — Find every business event in Orlando.<br/><br/>Workshops, Lunch & Learns, Podcasts — Learn directly from experts</div>
-      <div class="w-[696.47px] mb-20   justify-center"><span class="text-white text-xl font-normal font-['Montserrat'] leading-9">Everything you need to grow Events. Experts. Real connections. Now </span><span class="text-white text-2xl font-bold font-['Montserrat'] leading-9">$15/month</span><span class="text-white text-xl font-normal font-['Montserrat'] leading-9"> — First Month Free.</span></div>
+      <div class="w-[696.47px] mb-20   justify-center"><span class="text-white text-xl font-normal font-['Montserrat'] leading-9">Everything you need to grow Events. Experts. Real connections.Now </span><span class="text-white text-2xl font-bold font-['Montserrat'] leading-9">$15/month</span><span class="text-white text-xl font-normal font-['Montserrat'] leading-9"> — First Month Free.</span></div>
 <div class="w-60 h-12 relative bg-gradient-to-r from-cyan-300 to-purple-800 rounded-lg outline outline-1 outline-offset-[-1px] overflow-hidden">
   <div class="w-48 h-5 left-[25px] top-[15px] absolute text-center justify-center text-white text-base font-medium font-['Montserrat'] leading-6">Become a Member</div>
 </div>
