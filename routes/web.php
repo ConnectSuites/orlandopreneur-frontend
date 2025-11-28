@@ -14,3 +14,7 @@ Route::get('/about-us', function () {
 Route::get('/membership', function () {
     return view('membership');
 });
+
+Route::get('/sponsorship', function () {
+    return view('sponsorship');
+});
