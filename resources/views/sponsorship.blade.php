@@ -14,6 +14,27 @@
          <div class="absolute inset-0 flex flex-col items-center justify-center">
             <div class="text-white text-5xl font-normal font-['Poppins'] capitalize">Join the Tribe, Become an OrlandoPreneur </div>
             <div class="text-white text-3xl font-normal font-['Poppins'] capitalize">This isn’t just a membership. It’s a movement.</div>
+            <div class="flex flex-row gap-4">
+ <div class="mt-4    inline-block rounded-2xl bg-[linear-gradient(135deg,#ffffff,#e8e6ff)] shadow-md p-[2px]">
+  <button
+    class="px-6 py-2 rounded-xl bg-white/60 backdrop-blur-sm 
+           text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500
+           font-semibold text-lg w-full"
+  >
+    Join the Tribe
+  </button>
+</div>
+ <div class="mt-4    inline-block rounded-2xl bg-[linear-gradient(135deg,#ffffff,#e8e6ff)] shadow-md p-[2px]">
+  <button
+    class="px-6 py-2 rounded-xl bg-white/60 backdrop-blur-sm 
+           text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500
+           font-semibold text-lg w-full"
+  >
+    See Packages
+  </button>
+</div>
+            </div>
+       
         </div>
     </div>
 
@@ -27,38 +48,41 @@
            <div class="grid grid-cols-3 gap-4">
                 <div class="flex flex-col">
                     <div>
-                         <p class="w-40 h-14 justify-center text-primary-2-Color text-xl font-semibold font-['Montserrat'] leading-9">Primary Goal</p>
+                         <p class="w-40 h-14 justify-center text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500
+ text-xl font-semibold font-['Montserrat'] leading-9">Primary Goal</p>
                     </div>
                     <div>
-                         <select class="w-full px-4 py-2.5 rounded-xl bg-white shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
+                         <select class="w-full px-4 py-2.5 rounded-xl  bg-violet-300 shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
                         <option>Build local visibility</option>
                         </select>
                     </div>   
                 </div>
                  <div class="flex flex-col">
                     <div>
-                         <p class="w-40 h-14 justify-center text-primary-2-Color text-xl font-semibold font-['Montserrat'] leading-9">Audience Focus</p>
+                         <p class="w-40 h-14 justify-center text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500
+ text-xl font-semibold font-['Montserrat'] leading-9">Audience Focus</p>
                     </div>
                     <div>
-                         <select class="w-full px-4 py-2.5 rounded-xl bg-white shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
+                         <select class="w-full px-4 py-2.5 rounded-xl  bg-violet-300 shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
                         <option>Small businesses</option>
                         </select>
                     </div>   
                 </div>
                  <div class="flex flex-col">
                     <div>
-                         <p  class="w-40 h-14 justify-center text-primary-2-Color text-xl font-semibold font-['Montserrat'] leading-9">Engagement Style</p>
+                         <p  class="w-40 h-14 justify-center text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500
+ text-xl font-semibold font-['Montserrat'] leading-9">Engagement Style</p>
                     </div>
                     <div>
-                         <select class="w-full px-4 py-2.5 rounded-xl bg-white shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
+                         <select class="w-full px-4 py-2.5 rounded-xl  bg-violet-300 shadow-sm border border-gray-200 text-gray-700 focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400">
                         <option>Light presence at events</option>
                         </select>
                     </div>   
                 </div>
            </div>
            
-            <div class="px-6 py-4 mt-8 bg-white rounded-[10px] inline-flex justify-center items-center gap-2.5">
-                <button class="text-center text-Miscellaneous-Segmented-Control---Selected-Fill text-xl font-semibold font-['Poppins']">
+            <div class="px-6 py-4 mt-8 bg-violet-300 rounded-[10px] inline-flex justify-center items-center gap-2.5">
+                <button class="text-center  text-Miscellaneous-Segmented-Control---Selected-Fill text-xl font-semibold font-['Poppins']">
                 Show my Matches
                 </button>
                 </div>
@@ -66,10 +90,10 @@
     
     </div>
 
-    <div class="w-full flex  py-8 justify-center items-center">
-        <div class="w-[1389px] h-[1328px]  py-4 flex flex-col justify-center items-center relative bg-indigo-950/40 rounded-2xl border border-white/60">
-            <p class="w-[748px] h-20 text-cyan-300 text-4xl font-bold font-['Montserrat'] leading-9">Choose your Sponsorship Package</p>
-            <div class="w-[872px] h-14 text-center justify-center text-white text-xl font-normal font-['Montserrat'] leading-9">Flexible options for every partner from one-time events to year-round visibility.</div>
+    <div class="w-full flex px-8  py-8 justify-center items-center">
+        <div class="h-[1328px] px-8  py-4 flex flex-col justify-center items-center relative bg-indigo-950/40 rounded-2xl border border-white/60">
+            <p class=" h-20 text-cyan-300 text-4xl font-bold font-['Montserrat'] leading-9">Choose your Sponsorship Package</p>
+            <div class=" h-14 text-center justify-center text-white text-xl font-normal font-['Montserrat'] leading-9">Flexible options for every partner from one-time events to year-round visibility.</div>
             <div class="grid grid-cols-2 gap-4">
                 
                 <div class="w-[469px] h-[473px]  px-8 py-8 relative bg-white rounded-2xl outline outline-1 outline-offset-[-1px] outline-yellow-400/10 backdrop-blur-[5px]">
@@ -91,7 +115,7 @@
                     </div>
                 </div> 
 
-                 <div class="w-[469px] h-[473px]  px-8 py-8 relative bg-white rounded-2xl outline outline-1 outline-offset-[-1px] outline-yellow-400/10 backdrop-blur-[5px]">
+                 <div class=" h-[473px]  px-8 py-8 relative bg-white rounded-2xl outline outline-1 outline-offset-[-1px] outline-yellow-400/10 backdrop-blur-[5px]">
                     <div class="flex flex-row  justify-between items-center">
                         <div class="w-24 h-7 justify-start relative bg-cyan-400/25 rounded-full mb-5 flex flex-row">
                             <div class="w-16 h-4 left-[12px] top-[5px] absolute justify-center text-black text-sm font-normal font-['Montserrat'] leading-5">Choose</div>
@@ -131,7 +155,7 @@
                     </div>
                 </div> 
 
-                 <div class="w-[469px] h-[473px]  px-8 py-8 relative bg-white rounded-2xl outline outline-1 outline-offset-[-1px] outline-yellow-400/10 backdrop-blur-[5px]">
+                 <div class=" h-[473px]  px-8 py-8 relative bg-white rounded-2xl outline outline-1 outline-offset-[-1px] outline-yellow-400/10 backdrop-blur-[5px]">
                     <div class="flex flex-row  justify-between items-center">
                         <div class="w-24 h-7 justify-start relative bg-cyan-400/25 rounded-full mb-5 flex flex-row">
                             <div class="w-16 h-4 left-[12px] top-[5px] absolute justify-center text-black text-sm font-normal font-['Montserrat'] leading-5">Choose</div>
@@ -163,7 +187,7 @@
                         <div class="w-[851px] h-56 justify-center text-neutral-900 text-xl font-normal font-['Montserrat'] leading-10">Community Partner – always-on presence with profile, offer & booking link<br/>Channel Partner – your tutorials, tools & exclusive offers<br/>Event Sponsor Enhancements – sponsored calendar highlights, RSVP prompts<br/>Newsletter Features – sponsored columns or expert pieces<br/>Custom Notifications – timed announcements to targeted segments</div>  
                 <div class="w-72 h-14 relative rounded-[10px] shadow-[10px_6px_33px_0px_rgba(84,215,255,0.58)]">
         <div class="w-72 px-6 py-3.5 left-0 top-0 absolute bg-gradient-to-r from-cyan-300 to-purple-800 rounded-[10px] inline-flex justify-start items-start gap-2.5">
-            <button class="text-center justify-center text-Miscellaneous-Segmented-Control---Selected-Fill text-xl font-semibold font-['Poppins']">Explore In-App Add-Ons</button>
+            <button class="text-center text-white justify-center text-Miscellaneous-Segmented-Control---Selected-Fill text-xl font-semibold font-['Poppins']">Explore In-App Add-Ons</button>
         </div>
         </div>
                         </div>

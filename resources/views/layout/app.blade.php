@@ -9,7 +9,7 @@
     {{-- CSS --}}
   @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
-<body>
+<body class="bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('storage/images/home/background.png') }}');">
     {{-- Header --}}
     @include('partials.header')
 
@@ -23,6 +23,6 @@
 
     {{-- JS --}}
     {{-- //<script src="{{ asset('js/app.js') }}"></script> --}}
-    
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

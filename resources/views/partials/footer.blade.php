@@ -1,20 +1,45 @@
 <footer>
+  <div class="flex flex-col px-8 py-8 bg-slate-900">
 
-    <div class="w-[1728px] h-96 relative">
-  <div class="w-[1728px] h-96 left-0 top-0 absolute bg-slate-900"></div>
-  <div class="left-[1293px] top-[246px] absolute text-center justify-center text-white text-2xl font-semibold font-['Poppins'] capitalize">App download links </div>
-  <div class="left-[1293px] top-[286px] absolute text-center justify-center text-neutral-200 text-xl font-normal font-['Poppins'] capitalize">(coming soon)</div>
-  <div class="left-[741px] top-[168px] absolute text-center justify-center text-white text-3xl font-semibold font-['Poppins'] capitalize">Links</div>
-  <div class="left-[741px] top-[226px] absolute justify-center text-neutral-200 text-xl font-normal font-['Poppins'] capitalize">About | Membership | <br/>Sponsorship | Web3 Event | <br/>Contact | Member Guidelines | Privacy</div>
-  <div class="w-96 left-[170px] top-[192px] absolute justify-center text-white text-xl font-normal font-['Poppins'] capitalize leading-8">Orlando’s #1 Startup And Entrepreneurial Business Community</div>
-  <div class="left-[760px] top-[379px] absolute justify-center text-white text-base font-normal font-['Poppins'] capitalize leading-8">2025 orlando. all Right Reserved </div>
-  <div class="size-6 left-[729px] top-[384px] absolute overflow-hidden">
-    <div class="size-5 left-[2px] top-[2px] absolute bg-white"></div>
+    <div>
+       <img class="" src="{{ asset ('storage/images/footer_images_1.png') }}" />
+    </div>
+    <div class="grid grid-cols-3 gap-8 px-4  py-4">
+      <div class="flex flex-col">
+        <div><span class=" w-96 text-white text-xl font-normal font-['Poppins'] capitalize leading-8">Orlando’s #1 Startup And Entrepreneurial Business Community</span></div>
+        <div class="w-full flex flex-row gap-4 mt-2">
+          <div><img  src="{{ asset ('storage/images/social-1.png') }}" alt=""></div>
+          <div><img src="{{ asset ('storage/images/social-2.png') }}" alt=""></div>
+          <div><img src="{{ asset ('storage/images/social-3.png') }}" alt=""></div>
+          <div><img src="{{ asset ('storage/images/social-4.png') }}" alt=""></div>
+        </div>
+      </div>
+
+      <div class="flex flex-col">
+           <div> <span class=" text-white text-3xl font-semibold font-['Poppins'] capitalize">Links</span></div>
+           <div class="text-white">
+            <a href="">About |</a>
+            <a href="">Sponsorship |</a>
+            <a href="">Web3 Event |</a>
+               <a href="">Contact |</a>
+                 <a href="">Member Guidelines |</a>
+                    <a href="">Privacy</a>
+           </div>
+      </div>
+        
+      <div class="flex flex-col">
+        <div></div><span class=" text-white text-2xl font-semibold font-['Poppins'] capitalize">App download links </span>
+        <span class=" text-neutral-200 text-xl font-normal font-['Poppins'] capitalize">(coming soon)</span>
+      </div>
+      
+    </div>
+
+    <div class="flex justify-center">
+       <span class="text-white text-base font-normal font-['Poppins'] capitalize leading-8">2025 orlando. all Right Reserved </span>
+    </div>
+
   </div>
-  <div class="w-9 h-7 left-[250px] top-[286px] absolute bg-white/70"></div>
-  <div class="w-10 h-7 left-[170px] top-[286px] absolute bg-white/70"></div>
-  <div class="size-7 left-[326.93px] top-[286px] absolute bg-white/70"></div>
-  <div class="w-11 h-7 left-[396.93px] top-[286px] absolute bg-white/70"></div>
-  <img class="size-32 left-[166px] top-[56px] absolute" src="{{ asset ('storage/images/footer_images_1.png') }}" />
-</div>
+
+   
+
 </footer>

@@ -76,6 +76,7 @@
         "picocolors": "^1.1.1",
         "picomatch": "^4.0.3",
         "postcss-value-parser": "^4.2.0",
+        "preline": "^2.5.1",
         "proxy-from-env": "^1.1.0",
         "require-directory": "^2.1.1",
         "rollup": "^4.53.2",

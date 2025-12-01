@@ -8,7 +8,7 @@
     
     <div class="flex flex-col bg-gradient-to-r from-purple-800/70 from-[34%] to-cyan-300/70">
         <div class="">
-            <img src="{{ asset('storage/images/about-us/about-us-1.png') }}" class="w-full" />
+            <img src="{{ asset('storage/images/about-us/about-us-1.png') }}" class="" />
         <div class="absolute inset-0 flex flex-col items-center justify-center space-y-4">
             <h1 class="text-7xl font-bold text-white tracking-widest capitalize">Who We Are
             </h1>
@@ -18,11 +18,11 @@
         </div>
         </div>
     </div>
-    <div class="flex items-center py-10 justify-center">
+    <div class="max-w-6xl mx-auto flex items-center py-10 justify-center">
         <div class="relative py-10 px-5 bg-indigo-950 rounded-2xl">
            <div class="flex grid grid-cols-2">
             <div>
-                <img src="{{ asset('storage/images/about-us/about-us-2.png') }}" class="w-full" />
+                <img src="{{ asset('storage/images/about-us/about-us-2.png') }}" class="" />
             </div>
             <div class="flex px-10 w-100 flex-col items-center justify-center">
              <div class="text-cyan-300 text-3xl font-bold font-['Montserrat'] leading-9">“WE HAVE MET THE ENEMY AND HE IS US.” – Walt Kelly, via Pogo</div>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="flex flex-col bg-white py-8">
-        <div>
+        <div class="mb-8">
              <p class="self-stretch text-center justify-start text-cyan-300 text-5xl font-bold font-['Montserrat'] leading-[60px]">OUR CORE VALUES</p>
         </div>
 
@@ -137,16 +137,16 @@
 
     </div>
 
-    <div class="flex flex-cols py-10 px-5 justify-center">
-            <div class="bg-violet-950 opacity-90 rounded-2xl">
+    <div class="flex flex-cols py-8 px-5 justify-center">
+            <div class="max-w-6xl bg-violet-950 py-4 opacity-90 rounded-2xl">
                     <div class="px-5">
                         <p class="justify-center text-cyan-300 text-4xl font-bold font-['Montserrat'] leading-9">Our Social Pitch</p>
                     </div>
                     <div class="grid grid-cols-2 px-5 py-5 gap-8">
-                        <div class="w-[585px]">
+                        <div class="">
                             <span class="text-white text-xl font-normal font-['Montserrat'] leading-9">We are OrlandoPreneur, the #1 startup community in America’s #1 startup city (according to </span><span class="text-white text-xl font-normal font-['Montserrat'] underline leading-9">WalletHub</span><span class="text-white text-xl font-normal font-['Montserrat'] leading-9">, 4 of the last 5 years)!<br/>It hurts us to see entrepreneurs fail. And, when 95% do, it’s a monumental problem for us all.<br/>Our founder has founded and/or invested in dozens of startups, with multiple exits and failures, in multiple industries.<br/>By combining his passions for entrepreneurship and project management, his success rate is 12X the average!<br/>We don’t expect the Wall Street Journal to print about any of them, but when the entrepreneur, investors, and employees are happy, that’s what we call “success”! Everything doesn’t have to be a “unicorn”.<br/>Now consider this: EVERY material thing we buy, see, or touch – every part of your clothes, car, home, and stock portfolio – is provided by what was once a startup.<br/>So, essentially, our amazing world is built upon that 5% success rate!<br/><br/></span><span class="text-white text-xl font-semibold font-['Montserrat'] leading-9">Can you imagine what would happen to humanity if we just doubled it, to 10%?</span>
                         </div>
-                        <div class="w-[575px] ">
+                        <div class=" ">
                             <span class="justify-center text-white text-xl font-normal font-['Montserrat'] leading-9">
                                 That’s still a 90% failure rate, though we would effectively double innovation and wealth in the world!<br/>That is our purpose, and why we’ve founded OrlandoPreneur.<br/>Every organization calls themselves a “hub” of something. Any mechanic will tell you that hubs just spin.<br/>At OrlandoPreneur, we use collaboration, networking, and education to add teeth to those hubs, and turn them into gears. Two gears make a machine. More gears make more powerful machines!<br/>We utilize our proprietary techniques to empower startup founders, service providers, and investors to create greater quantity (and quality!) of "investable" startups, and small businesses.<br/>In two years, we have garnered more than 3200 members, with upwards of 200 people attending our monthly networking and learning Startup Happy Hour events. They also give us 4.8 out of 5 stars!<br/>We have bold plans for the future. Those who join us will reap the benefits along the way.<br/>If you want to Connect – Learn – and Grow with us, join our tribe, today!
                             </span>
@@ -163,16 +163,16 @@
     </div>
 
      <div class="flex flex-cols py-10 px-5 justify-center">
-        <div class="bg-violet-950 opacity-90 rounded-2xl">
+        <div class="max-w-6xl bg-violet-950 opacity-90 rounded-2xl">
             <div class="grid grid-cols-2 gap-4 py-5 px-5">
-                <div class="bg-white  w-[484px] flex flex-col py-5 px-5 rounded-2xl">
+                <div class="bg-white   flex flex-col py-5 px-5 rounded-2xl">
                     
                     <p class="justify-start text-cyan-300 text-4xl font-bold font-['Inter']">Is this you?</p>
                 
                     <div class="justify-start"><span class="text-black text-xl font-light font-['Poppins']">Are you an entrepreneur, startup founder, or small business owner who is experiencing any of these issues?<br/><br/></span><span class="text-black text-xl font-light font-['Poppins']">Meeting like-minded people<br/>Cannot sleep, worrying about your business<br/>Your business is stagnant, or dying, and you don’t know why<br/>Finding, winning, and keeping customers<br/>Raising funding to get to the next level<br/>Hiring and/or retaining good employees<br/>Developing products and/or services customers want<br/></span><span class="text-black text-xl font-light font-['Poppins']"><br/>People who join us, attend our events, and make an effort to learn (and execute!) what we teach, feel a peace of mind they hadn't felt in years! A few people actually told us that!<br/><br/></span><span class="text-black text-xl font-semibold font-['Poppins']">JOIN US, and we’ll do our best to empower you to achieve your dreams!</span></div>
                 </div>
                 <div class="flex flex-col">
-                    <div> <p class="w-[698px] h-14 justify-start text-cyan-300 text-4xl font-bold font-['Inter']">For Additional Information, Contact Us</p></div>
+                    <div> <p class=" h-14 justify-start text-cyan-300 text-3xl font-bold font-['Inter']">For Additional Information, Contact Us</p></div>
                  
                     <div class="grid grid-cols-2 gap-10">
 
