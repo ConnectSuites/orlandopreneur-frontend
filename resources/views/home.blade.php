@@ -7,9 +7,30 @@
   
   <div class="w-full h-full  mx-auto overflow-hidden">
 
-    <div>
-      <img  src="{{ asset('storage/images/home/home_images_1.png') }}" />
+    <div class="relative w-full h-[80vh] min-h-[500px] overflow-hidden pt-20">
+    <!-- Video -->
+    <video 
+        autoplay 
+        muted 
+        loop 
+        playsinline 
+        class="absolute inset-0 w-full h-full object-cover"
+    >
+        <source src="{{ asset('storage/videos/OrlandoPreneur.mp4') }}" type="video/mp4">
+    </video>
+
+    <!-- Overlay (biar konten lebih jelas) -->
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold drop-shadow-lg">OrlandoPreneur</h1>
+        <p class="mt-4 text-lg md:text-2xl max-w-2xl drop-shadow-md">
+            Empowering Entrepreneurs in Orlando
+        </p>
     </div>
+</div>
+
   
 
   
